@@ -5,8 +5,8 @@ function Resume() {
     <section className="my-5">
       <div className="my-2">
       <p>
-        Download my <a href="./src/assets/resume/resume.pdf">resume here!</a>
-        </p>
+        Download my <a href="../assets/resume/resume.pdf">resume here!</a>
+      </p>
         <h3>Proficiencies</h3>
         <ul className="skills">
           <li>JavaScript/React</li>
