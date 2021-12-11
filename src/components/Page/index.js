@@ -1,8 +1,8 @@
 import React from 'react';
 import PageContent from '../PageContent';
 import About from '../About';
-// import Portfolio from '../Portfolio';
-// import Resume from '../Resume';
+import Portfolio from '../Portfolio';
+import Resume from '../Resume';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Page({ currentPage }) {
@@ -13,8 +13,6 @@ function Page({ currentPage }) {
         return <About />;
       case 'portfolio':
         return <Portfolio />;
-      case 'contact':
-        return <Contact />;
       case 'resume':
         return <Resume />;
       default:
